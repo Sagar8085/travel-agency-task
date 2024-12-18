@@ -1,0 +1,59 @@
+
+
+
+.about-us-section {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+  }
+  
+  .about-us-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #333;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+      color: #555;
+    }
+  
+    .btn-primary {
+      background-color: #007bff;
+      border: none;
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-us-card {
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .d-flex.justify-content-center {
+    justify-content: center;
+  }
+  
